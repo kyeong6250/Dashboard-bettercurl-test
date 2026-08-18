@@ -1,6 +1,6 @@
 # Dashboard-bettercurl-test
 
-A small GitHub API "dashboard" — a folder of
+A small GitHub API "dashboard", a folder of
 [bettercurl](https://github.com/kyeong6250/Better-curl) request files, no
 application code. It exists to actually exercise bettercurl against a real
 API rather than a synthetic test double: plain GETs, query params,
