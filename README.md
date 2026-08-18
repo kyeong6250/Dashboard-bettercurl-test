@@ -17,7 +17,7 @@ pip install git+https://github.com/kyeong6250/Better-curl.git
 ```
 
 (Or, if you have a local clone of Better-curl, `pip install -e .` from
-inside it — see its README for details.)
+inside it, see its README for details.)
 
 ## The requests
 
