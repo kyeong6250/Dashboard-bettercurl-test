@@ -72,14 +72,6 @@ README](https://github.com/kyeong6250/Better-curl#json-vs-data--read-this-before
 for why that distinction matters (it's a real bug the original project this
 was based on has in its own docs).
 
-## Notes
+## Notes // Results
+- GETS your github information, like your profile username and follower api.
 
-- GitHub's REST API allows 60 unauthenticated requests/hour per IP — plenty
-  for poking around here, but you'll hit it if you loop `run-all.ps1` in a
-  tight script.
-- `requests/list-issues.yml` points at `octocat/Hello-World` (GitHub's own
-  public demo repo) rather than one of your own, specifically so it returns
-  real, non-empty data immediately — swap the URL for any repo you like.
-- No application code lives here on purpose. If you want to see bettercurl
-  itself — the CLI these files run through — that's in
-  [Better-curl](https://github.com/kyeong6250/Better-curl).
