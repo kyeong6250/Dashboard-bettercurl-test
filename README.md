@@ -1,6 +1,6 @@
 # Dashboard-bettercurl-test
 
-A small GitHub API "dashboard": a folder of [bettercurl](https://github.com/kyeong6250/Better-curl) request files, no application code. It exists to actually exercise bettercurl against a real API instead of a synthetic test double — plain GETs, query params, authenticated headers, a JSON POST body, all against [GitHub's REST API](https://docs.github.com/en/rest).
+A small GitHub API "dashboard": a folder of [bettercurl](https://github.com/kyeong6250/Better-curl) request files, no application code. It exists to actually exercise bettercurl against a real API instead of a synthetic test double plain GETs, query params, authenticated headers, a JSON POST body, all against [GitHub's REST API](https://docs.github.com/en/rest).
 
 Every read-only request file here was run for real while building this repo, not just written to look plausible.
 
