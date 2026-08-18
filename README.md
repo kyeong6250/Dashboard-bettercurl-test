@@ -52,7 +52,7 @@ done
 3. Edit `requests/create-issue.yml` — swap `YOUR_GITHUB_TOKEN_HERE` for that token, and point `url:` at a repo you actually own or can write to
 4. `bettercurl -f requests/create-issue.yml`
 
-This file also happens to be the one that shows why bettercurl's spec uses `json:` rather than `data:` for request bodies — see [Better-curl's README](https://github.com/kyeong6250/Better-curl#json-vs-data--read-this-before-sending-a-postput-body) for why that distinction matters. It's a real bug the original project this was based on has sitting in its own docs.
+This file also happens to be the one that shows why bettercurl's spec uses `json:` rather than `data:` for request bodies see [Better-curl's README](https://github.com/kyeong6250/Better-curl#json-vs-data--read-this-before-sending-a-postput-body) for why that distinction matters. It's a real bug the original project this was based on has sitting in its own docs.
 
 ## A few things worth knowing
 
