@@ -1,0 +1,2 @@
+# The real, token-filled copy -- never commit a personal access token.
+requests/create-issue.yml

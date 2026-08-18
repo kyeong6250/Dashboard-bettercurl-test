@@ -1,0 +1,5 @@
+# Plain GET, no params, no auth. The simplest possible request file.
+url: https://api.github.com/users/kyeong6250
+method: get
+headers:
+  Accept: application/vnd.github+json

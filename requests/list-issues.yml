@@ -1,0 +1,10 @@
+# Points at GitHub's own public demo repo (not one of your own) so this
+# returns real, non-empty data on a fresh clone -- try swapping the URL to
+# any repo/owner you like, including your own.
+url: https://api.github.com/repos/octocat/Hello-World/issues
+method: get
+headers:
+  Accept: application/vnd.github+json
+params:
+  per_page: 3
+  state: open

@@ -1,0 +1,26 @@
+# Authenticated POST with a JSON body -- creates a REAL issue on the target
+# repo when actually run. This file is a template, not meant to be run as-is:
+#
+#   1. Copy it:  cp create-issue.example.yml create-issue.yml
+#      (create-issue.yml is gitignored, so your token can never get committed)
+#   2. Generate a fine-grained personal access token with "Issues: write"
+#      permission on the target repo: https://github.com/settings/tokens
+#   3. Replace YOUR_GITHUB_TOKEN_HERE below with that token
+#   4. Point url: at a repo you actually own/can write to
+#   5. bettercurl -f requests/create-issue.yml
+#
+# This is the one file in this repo that demonstrates the json: vs data:
+# distinction bettercurl's README warns about: json: below gets serialized
+# to JSON and gets a correct Content-Type automatically. Using data: with
+# the same mapping would silently send form-encoded data instead, and
+# GitHub's API would reject it.
+url: https://api.github.com/repos/kyeong6250/Dashboard-bettercurl-test/issues
+method: post
+headers:
+  Accept: application/vnd.github+json
+  Authorization: Bearer YOUR_GITHUB_TOKEN_HERE
+json:
+  title: Test issue created via bettercurl
+  body: >-
+    Created by POSTing requests/create-issue.yml through bettercurl's
+    json: field.

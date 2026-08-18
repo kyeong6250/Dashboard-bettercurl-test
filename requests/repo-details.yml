@@ -1,0 +1,5 @@
+# GET a single resource by path -- a bigger JSON object, good for -c highlighting.
+url: https://api.github.com/repos/kyeong6250/Better-curl
+method: get
+headers:
+  Accept: application/vnd.github+json

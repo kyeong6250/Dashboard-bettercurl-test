@@ -1,0 +1,8 @@
+# GET with query params -- exercises the `params:` field (?sort=updated&per_page=5).
+url: https://api.github.com/users/kyeong6250/repos
+method: get
+headers:
+  Accept: application/vnd.github+json
+params:
+  sort: updated
+  per_page: 5
